@@ -1,0 +1,24 @@
+{
+  "name": "@rainder/measure",
+  "version": "0.0.1",
+  "description": "Helps to measure time taken to execute the code",
+  "main": "index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "time",
+    "measure",
+    "ms",
+    "benchmark",
+    "code"
+  ],
+  "author": "Andrius Skerla",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.50",
+    "typescript": "^2.6.1"
+  }
+}
