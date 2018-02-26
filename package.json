@@ -1,6 +1,6 @@
 {
   "name": "@rainder/measure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helps to measure time taken to execute the code",
   "main": "index.js",
   "typings": "index.d.ts",
