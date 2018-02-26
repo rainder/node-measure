@@ -4,6 +4,6 @@ export function measure(): () => number {
   return () => {
     const timeDiff = process.hrtime(timeStart);
 
-    return (timeDiff[0] + (timeDiff[1] / 1e9)) / 1e3;
+    return (timeDiff[0] + (timeDiff[1] / 1e9)) * 1e3;
   };
 }
