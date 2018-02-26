@@ -3,10 +3,11 @@
   "version": "0.0.3",
   "description": "Helps to measure time taken to execute the code",
   "main": "index.js",
-  "types": "index.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "prepublish": "npm run build",
+    "build": "tsc -d"
   },
   "keywords": [
     "time",
@@ -18,7 +19,7 @@
   "author": "Andrius Skerla",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^8.0.50",
-    "typescript": "^2.6.1"
+    "@types/node": "^9.4.6",
+    "typescript": "^2.7.2"
   }
 }
